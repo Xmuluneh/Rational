@@ -62,7 +62,7 @@ public class Rational extends Number implements Comparable<Rational> {
     }
 
     public String toString() {
-        if (denominator == 1) {
+        if (numerator==0||denominator == 1) {
             return numerator + "";
         } else {
             return numerator + "/" + denominator;
